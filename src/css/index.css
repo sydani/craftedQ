@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.owl-nav { 
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .owl-prev, .owl-next {
+    display: inline-flex !important;
+    padding: 0.75rem !important;
+ }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif
+}
+
+.testimonial-container {
+	background: #24282A;
+	margin-bottom: 20px;
+    padding: 4rem;
+	overflow: hidden;
+}
+
+.tag {
+	text-align: center;
+	font-size: 1.1rem
+}
+
+.fa-heart {
+	color: rgba(255, 230, 0, 0.959);
+	font-size: 30px
+}
+
+.testimonial-card {
+	height: 312px;
+	padding: 10px 20px;
+	border: none;
+    background: #FEFEFE;
+}
+
+.testimonial {
+	font-size: 0.9rem;
+	line-height: 1.4rem;
+	font-weight: 500
+}
+
+.active-star {
+	color: #FBC02D;
+	margin-bottom: 8px
+}
+
+.active-star:hover {
+	color: #F9A825;
+	cursor: pointer
+}
+
+.profile {
+	padding-top: 10px
+}
+
+.name {
+	font-weight: 700
+}
+
+.designation {
+	font-size: 0.84rem;
+	font-weight: 600
+}
+
+.owl-carousel {
+	margin-bottom: 15px
+}
+
+.owl-carousel .owl-stage-outer {
+	padding: 40px 10px;
+	height: 380px
+}
+
+.owl-carousel .owl-item img {
+	width: 45px !important;
+	height: 45px;
+	border-radius: 50%;
+	object-fit: cover
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+	background: #313A41 !important;
+	border: 3px solid #313A41;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+	border: 3px solid #8D8D8D;
+	background: transparent !important;
+}
+
+@media(max-width: 575.5px) {
+	.container {
+		margin: 0px;
+		padding: 20px
+	}
+}
+
+.dashboard {
+    background: #E1F2FF;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    position: fixed;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15), inset 0 -1px 0 rgba(0,0,0,0.15);
+    width: 100%;
+    z-index: 999;
+    background: #e1f2ff;
+    transition-duration: .25s;
+}
+.dashboard .btn {
+    background: #000 !important;
+    color: #fff;
+}
+
+.dashboard .container {
+    max-width: 85%;
+    position: relative;
+}
+
+.logo {
+    width: 145px !important;
+}
+
+.dashboard nav .btn {
+    background: transparent !important;
+    font-size: 18px !important;
+    padding: 15px 26px !important;
+    color: #000;
+    border: 1px solid;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 0.75rem;
+}
+.dashboard p {
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #282A2B;
+}
+
+.dashboard img {
+    width: 100%;
+}
+
+.dashboard nav {
+    background-color: transparent !important;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.dashboard .heading {
+    text-align: left;
+}
+
+.dev-services {
+    background: #F0F5F9;
+    padding: 90px;
+}
+
+.heading {
+    font-size: 3rem !important;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+.card {
+    height: 100%;
+}
+
+.card img {
+    width: 64px;
+    height: 64px;
+}
+
+.store {
+    background: #24282B;
+    color: #fff;
+    padding: 6rem 6.75rem 
+}
+.store h4 {
+    margin: 2rem 0 1.5rem 0;
+}
+.store img {
+    width: 6rem;
+    height: 6rem;
+}
+.store .benefit {
+    padding: 2rem;
+}
+
+.woo-commerce {
+    padding: 128px;
+}
+
+.woo-commerce img {
+    width: 45%;
+}
+
+.woo-commerce .row div{
+    width: auto;
+}
+
+.request-form {
+    background: #01579B;
+    padding: 4rem;
+}
+
+.form-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form-container .btn {
+    background: #fff !important;
+    color: #000;
+}
+
+.form-container .form-label, .form-container .required:after {
+    color: #fff;
+}
+
+.required:after {
+    content:" *";
+    color: red;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.testimonial-container .heading, .request-form .heading {
+    color: #fff;
+}
+
+.accordion-button {
+    font-size: 1.5rem !important;
+    font-weight: 800 !important;
+    color: #000 !important;
+    margin: 1rem 0 !important;
+}
+.accordion-item {
+    border: none !important;
+    border-bottom: 1px solid #BFBFBF !important;
+}
+
+.accordion-item:last-child {
+    border: none !important;
+    border-bottom: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    border: none !important;
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.faqs {
+    padding: 5rem;
+}
+
+.footer {
+    background: #1C262B;
+    color: #fff;
+    padding: 4rem 0;
+}
+
+.footer img {
+    width: 24px;
+}
+
+.btn {
+    background: #01579B !important;
+    padding: 21.5px 40px;
+    border-radius: 0;
+}
+
+.footer .icon {
+    display: inline-flex!important;
+    background: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 16px;
+}
+
+.scrollup {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 65px;
+    right: 55px;
+    text-align: center;
+    z-index: 100;
+    display: none;
+  }
+
+  .scroll-top {
+    color: #a3d2f5;
+    font-size: 4rem;
+    box-shadow: 0px 4px 9px 1px #eee;
+    border-radius: 50%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .heading {
+      font-size: 1.5rem !important;
+      text-align: center;
+    }
+    .dashboard .container {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .dev-services, .request-form, .faqs, .woo-commerce {
+        padding: 0;
+    }
+
+    .dev-services {
+        padding-top: 90px;
+    }
+ }
